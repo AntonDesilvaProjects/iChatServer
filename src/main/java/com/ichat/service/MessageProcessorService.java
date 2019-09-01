@@ -7,7 +7,7 @@ import com.ichat.command.Weather;
 import com.ichat.common.Headers;
 import com.ichat.server.MessageBroker;
 import com.ichat.server.SocketConnection;
-import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.collections4.MapUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.*;
@@ -29,7 +29,8 @@ public class MessageProcessorService extends Service {
     private MessageBroker messageBroker;
     private final Map<String, Command> keyToCommandMap;
 
-    public MessageProcessorService() {
+    public MessageProcessorService(MessageBroker messageBroker) {
+        this.messageBroker = messageBroker;
         keyToCommandMap = generateCommandMap();
     }
 
@@ -109,10 +110,19 @@ public class MessageProcessorService extends Service {
             int argsStartIdx = commandArgs.indexOf(' ');
             String commandStr = argsStartIdx < 0 ? commandArgs : commandArgs.substring(0, argsStartIdx);
             command = keyToCommandMap.get(commandStr);
+            Map<Character, String> paramArgMap = null;
             if (command != null) {
-                Map<Character, String> paramArgMap = new HashMap<>();
                 if (argsStartIdx > 0) {
-                    paramArgMap = ArgParser.getParametersAndArguments(commandArgs.substring(argsStartIdx), command.getParameters());
+                    String args = commandArgs.substring(argsStartIdx).trim();
+                    paramArgMap = ArgParser.getParametersAndArguments(args, command.getParameters());
+                    if (MapUtils.isEmpty(paramArgMap)) {
+                        //if the argument parser cannot find any valid arguments in the arg string
+                        //we will pass the entire arg string as a default argument to the command
+                        Character defaultParam = command.getDefaultParameter();
+                        if (defaultParam != null) {
+                            paramArgMap.put(defaultParam, args);
+                        }
+                    }
                 }
                 commandList.add(new AbstractMap.SimpleEntry<>(command, paramArgMap));
             }
@@ -123,7 +133,7 @@ public class MessageProcessorService extends Service {
     private Map<String, Command> generateCommandMap() {
         Map<String, Command> map = new HashMap<>();
         map.put("@weather", new Weather());
-        map.put("@members", new Members());
+        map.put("@members", new Members(messageBroker));
         return map;
     }
 }

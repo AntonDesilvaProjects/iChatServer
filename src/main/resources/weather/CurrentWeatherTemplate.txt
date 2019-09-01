@@ -1,0 +1,13 @@
+<div class="system-message">
+	<span>Weather for %s - %s</span><br>
+	<div style="padding:5px;">
+		<table cellpadding="5">
+			<tr>
+				<td><span>Current: %s°F,</span></td>
+				<td><span>Min: %s°F,</span></td>
+				<td><span>Max: %s‎°F</span></td>
+			</tr>
+		</table>
+		<span>&nbsp&nbsp%s</span>
+	</div>
+</div>

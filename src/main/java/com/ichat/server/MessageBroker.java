@@ -63,4 +63,7 @@ public class MessageBroker {
         connectedClientMap.remove(clientId);
     }
 
+    public Map<String, SocketConnection> getConnectedClientMap() {
+        return connectedClientMap;
+    }
 }

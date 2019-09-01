@@ -1,0 +1,8 @@
+<div class="system-message">
+	<span>%s</span>
+	<br><br>
+	<span>Options</span><br>
+	<table cellpadding="3">
+		%s
+	</table>
+</div>

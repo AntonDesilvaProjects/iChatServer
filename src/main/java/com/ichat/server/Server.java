@@ -40,4 +40,8 @@ public class Server {
             messageBroker.registerSocketConnection(socketConnection);
         }
     }
+
+    public MessageBroker getMessageBroker() {
+        return messageBroker;
+    }
 }

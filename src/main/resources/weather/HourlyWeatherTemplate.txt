@@ -1,0 +1,8 @@
+<div class="system-message">
+	<span>Weather for %s</span><br>
+	<div style="padding:5px;">
+		<table cellpadding="5">
+            %s
+        </table>
+	</div>
+</div>

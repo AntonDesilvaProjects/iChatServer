@@ -1,0 +1,24 @@
+
+„squid:S00116"`Rename this field "OPEN_WEATHER_BASE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úîïøÿÿÿÿ8şğ–µÌ-
+squid:S1192"aDefine a constant instead of duplicating this literal "dae66b1ca3bf0c1d18abf2a7560d08d9" 3 times.(³¹ğ8ååıØÌ-
+`squid:S1068"BRemove this unused "OPEN_WEATHER_FORECAST_ENDPOINT" private field.(ßŠœ§8ÂïÎÌ-
+?squid:S1170"!Make this final field static too.(¾Áø˜8îÒ›µÌ-
+?squid:S1170"!Make this final field static too.(³¹ğ8öõµÌ-
+†squid:S00116"gRename this field "OPEN_WEATHER_HOURLY_ENDPOINT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Áø˜8îÒ›µÌ-
+~squid:S00116"_Rename this field "OPEN_WEATHER_API_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¹ğ8öõµÌ-
+squid:S00116"[Rename this field "DEFAULT_ZIP_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¿šşÿÿÿÿ8©áö³Ì-
+ˆsquid:S00116"iRename this field "OPEN_WEATHER_FORECAST_ENDPOINT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßŠœ§8ÂïÎÌ-
+Šsquid:S00116"kRename this field "OPEN_WEATHER_QUERY_PARAM_ZIPCODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÎ”ã8ààÈÛÌ-
+Dsquid:S1170"!Make this final field static too.(Úîïøÿÿÿÿ8şğ–µÌ-
+Msquid:S00108A")Either remove or fill this block of code.(ƒ½üùÿÿÿÿ8¨¥‡ŞÌ-
+?squid:S1170"!Make this final field static too.(ßŠœ§8ÂïÎÌ-
+‡squid:S00116"hRename this field "OPEN_WEATHER_CURRENT_ENDPOINT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÉÚî8®›µÌ-
+[
+squid:S106r"9Replace this use of System.out or System.err by a logger.(À¬‘øÿÿÿÿ8ÂïÎÌ-
+Dsquid:S1170"!Make this final field static too.(²¿šşÿÿÿÿ8æÉö³Ì-
+?squid:S1170"!Make this final field static too.(åÎ”ã8ààÈÛÌ-
+?squid:S1170"!Make this final field static too.(ÏÉÚî8®›µÌ-
+?squid:S1170"!Make this final field static too.(‘Ïä†8ààÈÛÌ-
+^squid:S1068"@Remove this unused "OPEN_WEATHER_HOURLY_ENDPOINT" private field.(¾Áø˜8îÒ›µÌ-
+Vsquid:S1068"8Remove this unused "OPEN_WEATHER_API_KEY" private field.(³¹ğ8öõµÌ-
+‡squid:S00116"hRename this field "OPEN_WEATHER_QUERY_PARAM_CITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ïä†8ààÈÛÌ-

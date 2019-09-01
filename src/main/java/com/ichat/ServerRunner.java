@@ -11,12 +11,12 @@ import java.util.Map;
 public class ServerRunner {
     public static Map<Service.Services,Service> SERVICES;
     public static void main(String[] args) throws IOException {
-        initializeServices();
         Server server = new Server();
+        initializeServices(server);
         server.startServer();
     }
-    private static void initializeServices() {
+    private static void initializeServices(Server server) {
         SERVICES = new HashMap<>();
-        SERVICES.put(Service.Services.MESSAGE_PROCESSOR, new MessageProcessorService());
+        SERVICES.put(Service.Services.MESSAGE_PROCESSOR, new MessageProcessorService(server.getMessageBroker()));
     }
 }

@@ -1,0 +1,5 @@
+<tr>
+    <td><span class="bold" style="white-space:nowrap;">%s<span></td>
+    <td>%s</td>
+    <td>%s</td>
+</tr>

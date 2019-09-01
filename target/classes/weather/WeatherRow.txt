@@ -1,0 +1,5 @@
+<tr style="background: %s;">
+    <td><span>%s</span></td>
+    <td><span>%s‎°F,</span></td>
+    <td><span>%s‎</span></td>
+</tr>
