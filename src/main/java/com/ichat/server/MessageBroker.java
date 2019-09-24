@@ -1,11 +1,12 @@
 package com.ichat.server;
 
+import com.ichat.common.Constants;
 import com.ichat.common.Headers;
 import com.ichat.service.Message;
+import com.sun.xml.internal.bind.v2.runtime.reflect.opt.Const;
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ConcurrentHashMap;
@@ -45,14 +46,28 @@ public class MessageBroker {
                 Message message = null;
                 try {
                     message = messagePipeline.take();
-                    for (SocketConnection socketConnection : connectedClientMap.values()) {
-                        socketConnection.sendMessage(message);
+                    if (message.getBroadcastPolicy() != Message.BroadcastPolicy.NONE) {
+                        Collection<SocketConnection> recipientList = new ArrayList<>();
+                        if (message.getBroadcastPolicy() == Message.BroadcastPolicy.SELECT) {
+                            for (SocketConnection socketConnection : connectedClientMap.values()) {
+                                if (message.getRecipients().contains(socketConnection.getClientId())) {
+                                    recipientList.add(socketConnection);
+                                }
+                            }
+                        } else if (message.getBroadcastPolicy() == Message.BroadcastPolicy.ALL) {
+                            recipientList = connectedClientMap.values();
+                        }
+                        //send message to recipients
+                        for(SocketConnection socketConnection : recipientList) {
+                            socketConnection.sendMessage(message);
+                        }
                     }
+
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
-        });
+        }, Constants.THREAD_POOL);
     }
 
     public void registerSocketConnection(SocketConnection socketConnection) {

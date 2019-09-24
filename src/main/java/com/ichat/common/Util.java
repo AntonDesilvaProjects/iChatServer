@@ -3,7 +3,6 @@ package com.ichat.common;
 import org.apache.commons.io.IOUtils;
 
 import java.io.*;
-import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.text.Format;
 import java.text.SimpleDateFormat;

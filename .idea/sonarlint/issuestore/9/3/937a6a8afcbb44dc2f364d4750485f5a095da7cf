@@ -1,4 +1,10 @@
 
-ksquid:UselessImportCheck
-"@Remove this unused import 'org.apache.commons.lang3.ArrayUtils'.(ªðô†8œ§ŽÒÌ-
-_squid:S1126K"AReplace this if-then-else statement by a single return statement.(×ÏÂ¶8‘îŒŠÌ-
+Fsquid:S1148b"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ïèý˜Ï-
+nsquid:S2095="QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(íÁÕt8‘Ä—¹Ó-
+[
+squid:S106^"9Replace this use of System.out or System.err by a logger.(¦€¾ñøÿÿÿÿ8èõÝ¡Ï-
+qsquid:S3776‹"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(öÛÑÇ8ŽÌÜÖÎ-
+_squid:S1126t"AReplace this if-then-else statement by a single return statement.(×ÏÂ¶8‘îŒŠÌ-
+Fsquid:S1148H"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8àµÁ¹Ó-
+psquid:S3776$"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ù•Ë‰8‘Ä—¹Ó-
+usquid:S2095Z"RUse try-with-resources or close this "BufferedOutputStream" in a "finally" clause.(£òÛ¥ÿÿÿÿÿ8¨ ¢›Ï-

@@ -1,10 +1,10 @@
 
-Esquid:S2189%""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8‘ìå¹Ë-
-[
-squid:S106 "9Replace this use of System.out or System.err by a logger.(×‹¿Ïûÿÿÿÿ8İüŒÌ-
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(£ìÃôøÿÿÿÿ8§œúŒÌ-
+vsquid:S00116"WRename this field "DEFAULT_PORT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾È´á8ôÓƒºË-
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(×‹¿Ïûÿÿÿÿ8İüŒÌ-
+Esquid:S2189%""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8‘ìå¹Ë-
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(£ìÃôøÿÿÿÿ8ÓæúŒÌ-
 ?squid:S1170"!Make this final field static too.(¾È´á8šıè¹Ë-
-vsquid:S00116"WRename this field "DEFAULT_PORT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾È´á8ôÓƒºË-

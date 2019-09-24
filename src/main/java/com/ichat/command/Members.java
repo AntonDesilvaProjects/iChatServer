@@ -39,7 +39,7 @@ public class Members extends AbstractStringCommand {
         StringBuilder htmlViewBuilder = new StringBuilder();
         htmlViewBuilder.append("<div class=\"system-message\">Current users<ul>");
         socketConnections.forEach(c -> {
-            htmlViewBuilder.append(String.format("<li>%s<li>", c.getUsername()));
+            htmlViewBuilder.append(String.format("<li>%s</li>", c.getUsername()));
         });
         htmlViewBuilder.append("</ul></div>");
         return htmlViewBuilder.toString();

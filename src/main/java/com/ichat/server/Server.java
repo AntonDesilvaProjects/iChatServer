@@ -12,7 +12,7 @@ public class Server {
     private MessageBroker messageBroker;
     private ServerSocket serverSocket;
 
-    private final int DEFAULT_PORT = 3001;
+    private final int DEFAULT_PORT = 3021;
 
     public Server() throws IOException {
         System.out.println("Starting up server...");

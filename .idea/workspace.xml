@@ -2,40 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73937d83-62e5-4030-8b79-b684a6ad2b3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ichat/command/AbstractCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ichat/command/AbstractStringCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ichat/command/dto/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ichat/common/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/weather/CurrentWeatherTemplate.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/weather/HelpRow.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/weather/HelpTemplate.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/weather/HourlyWeatherTemplate.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ichat/command/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ichat/service/ByteArrayFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/130c421743afb6637cd8c9d381aeab757d38255f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/130c421743afb6637cd8c9d381aeab757d38255f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/22ff9fc15f2ff2184016b0dec999ac8ff4c70440" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/22ff9fc15f2ff2184016b0dec999ac8ff4c70440" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26a441e61a97c4b50fed2fcb7e3722bf3b1eaf14" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26a441e61a97c4b50fed2fcb7e3722bf3b1eaf14" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46291ad6cb0f7df3932949f20f6d13ab63baf4ad" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46291ad6cb0f7df3932949f20f6d13ab63baf4ad" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48480a7300c0b0fd55361c02b18ba72c104e8fc6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48480a7300c0b0fd55361c02b18ba72c104e8fc6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55d6a20832a92a37e43cb535873101ddcd37e9b7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55d6a20832a92a37e43cb535873101ddcd37e9b7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f3a8f71fdf628d0a191eaea1ecee0d490250996" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f3a8f71fdf628d0a191eaea1ecee0d490250996" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fd4a261ffdcd217d16d2ae46d0bd1b43adf7632" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fd4a261ffdcd217d16d2ae46d0bd1b43adf7632" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/937a6a8afcbb44dc2f364d4750485f5a095da7cf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/937a6a8afcbb44dc2f364d4750485f5a095da7cf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1e477186e4e8abd421cd2de3e5b0c2f72b27cff" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1e477186e4e8abd421cd2de3e5b0c2f72b27cff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d75d19b8e1bb8751f736fbda26748698bf0a5a0f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d75d19b8e1bb8751f736fbda26748698bf0a5a0f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d79af30ab2e83cdee9f6894813a05d9f037abc5f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d79af30ab2e83cdee9f6894813a05d9f037abc5f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ichat/ServerRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ichat/ServerRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ichat/command/ArgParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ichat/command/ArgParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ichat/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ichat/command/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ichat/command/Members.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ichat/command/Members.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ichat/command/Weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ichat/command/Weather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ichat/command/dto/WeatherResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ichat/command/dto/WeatherResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ichat/common/Headers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ichat/common/Headers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ichat/common/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ichat/common/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ichat/server/MessageBroker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ichat/server/MessageBroker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ichat/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ichat/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ichat/server/SocketConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ichat/server/SocketConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ichat/service/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ichat/service/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ichat/service/MessageProcessorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ichat/service/MessageProcessorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ichat/command/ArgParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ichat/command/ArgParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ichat/command/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ichat/command/Command.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ichat/command/Members.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ichat/command/Members.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ichat/command/Weather.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ichat/command/Weather.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ichat/command/dto/WeatherResponse$Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ichat/command/dto/WeatherResponse$WeatherDescription.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ichat/command/dto/WeatherResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ichat/command/dto/WeatherResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ichat/common/Headers$ContentType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ichat/common/Headers$ContentType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ichat/common/Headers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ichat/common/Headers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ichat/common/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ichat/common/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ichat/server/MessageBroker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ichat/server/MessageBroker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ichat/server/SocketConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ichat/server/SocketConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ichat/service/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ichat/service/Message.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ichat/service/MessageProcessorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ichat/service/MessageProcessorService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,26 +48,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/ServerRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/AbstractStringCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="40">
+              <caret line="2" column="81" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/Members.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/Weather.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="78" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
+            <state relative-caret-position="500">
+              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,77 +71,99 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/server/MessageBroker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+            <state relative-caret-position="186">
+              <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2095#2096#0" expanded="true" />
-                <element signature="e#2146#2147#0" expanded="true" />
-                <element signature="e#2214#2215#0" expanded="true" />
-                <element signature="e#2255#2256#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#2948#2949#0" expanded="true" />
+                <element signature="e#2999#3000#0" expanded="true" />
+                <element signature="e#3067#3068#0" expanded="true" />
+                <element signature="e#3108#3109#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/AbstractStringCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/common/Headers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="140">
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/AbstractCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/server/SocketConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+            <state relative-caret-position="603">
+              <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1251#1252#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/common/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/common/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/server/UserColor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/service/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/service/MessageProcessorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="122" column="64" lean-forward="true" selection-start-line="122" selection-start-column="64" selection-end-line="122" selection-end-column="64" />
+            <state relative-caret-position="238">
+              <caret line="183" column="79" selection-start-line="183" selection-start-column="79" selection-end-line="183" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/ArgParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="93" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/server/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1530#1531#0" expanded="true" />
-                <element signature="e#1566#1567#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,17 +179,21 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>has</find>
+      <find>runAsync</find>
+      <find>uploaded</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ichat/service/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ichat/service/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ichat/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ichat/common/Headers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ichat/server/SocketConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ichat/command/SelfDestruct.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ichat/command/Member.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ichat/command/dto/WeatherDescription.java" />
@@ -184,7 +201,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ichat/command/dto/WeatherResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ichat/command/dto/WeatherData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ichat/common/Util.java" />
         <option value="$PROJECT_DIR$/src/main/resources/weather/WeatherRow.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/weather/HourlyWeatherTemplate.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/weather/CurrentWeatherTemplate.txt" />
@@ -194,12 +210,22 @@
         <option value="$PROJECT_DIR$/src/main/resources/weather/HelpRow.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/ichat/command/AbstractCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ichat/command/Weather.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ichat/server/MessageBroker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ichat/server/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ichat/ServerRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ichat/command/ArgParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ichat/service/MessageProcessorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ichat/command/Members.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ichat/command/Query.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ichat/service/File.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ichat/service/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ichat/service/ByteArrayFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ichat/command/Downloads.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ichat/common/Headers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ichat/common/Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ichat/common/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ichat/server/SocketConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ichat/server/MessageBroker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ichat/server/UserColor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ichat/service/MessageProcessorService.java" />
       </list>
     </option>
   </component>
@@ -211,7 +237,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-23" />
+    <option name="x" value="-149" />
+    <option name="y" value="108" />
     <option name="width" value="987" />
     <option name="height" value="1046" />
   </component>
@@ -221,7 +248,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,16 +298,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ichat" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iChatServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iChatServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ichat" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -316,11 +333,16 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="weather" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="iChatServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iChatServer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,6 +361,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.ServerRunner">
+    <configuration name="Downloads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ichat.command.Downloads" />
+      <module name="iChatServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ichat.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MessageProcessorService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ichat.service.MessageProcessorService" />
       <module name="iChatServer" />
@@ -394,6 +429,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ServerRunner" />
+        <item itemvalue="Application.Downloads" />
         <item itemvalue="Application.Util" />
         <item itemvalue="Application.Weather" />
         <item itemvalue="Application.MessageProcessorService" />
@@ -417,7 +453,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20309168" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21801706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -428,14 +464,14 @@
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3288889" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32777777" />
-      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32333332" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33333334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21111111" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.20666666" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -449,17 +485,9 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ichat/command/ArgParser.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
@@ -473,27 +501,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/service/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/service/Service.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/common/Headers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -580,27 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/weather/HourlyWeatherTemplate.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/common/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,24 +605,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/AbstractStringCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/weather/HelpTemplate.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/weather/WeatherRow.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -641,7 +621,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="200">
           <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -651,64 +631,207 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/server/SocketConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/ServerRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2799#2800#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2885#2886#0" expanded="true" />
-            <element signature="e#2914#2915#0" expanded="true" />
-            <element signature="e#3062#3063#0" expanded="true" />
-            <element signature="e#3093#3094#0" expanded="true" />
-            <element signature="e#3269#3270#0" expanded="true" />
-            <element signature="e#3309#3310#0" expanded="true" />
-            <element signature="e#3534#3535#0" expanded="true" />
-            <element signature="e#3575#3576#0" expanded="true" />
-            <element signature="e#3795#3796#0" expanded="true" />
-            <element signature="e#3831#3832#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/Weather.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/Members.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-780">
-          <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+        <state relative-caret-position="600">
+          <caret line="39" column="57" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4292#4293#0" expanded="true" />
-            <element signature="e#4329#4330#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="1205" column="18" selection-start-line="1205" selection-start-column="18" selection-end-line="1205" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/ArgParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/service/ByteArrayFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="1946" column="53" selection-start-line="1946" selection-start-column="22" selection-end-line="1946" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/weather/WeatherRow.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/weather/HourlyWeatherTemplate.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/AbstractCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/ServerRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/Query.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="440">
+          <caret line="29" column="16" selection-start-line="28" selection-start-column="8" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/ArgParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/Downloads.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="93" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
+        <state relative-caret-position="700">
+          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/AbstractStringCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="81" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/common/Headers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/service/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/common/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/common/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/server/SocketConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/server/MessageBroker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#2948#2949#0" expanded="true" />
+            <element signature="e#2999#3000#0" expanded="true" />
+            <element signature="e#3067#3068#0" expanded="true" />
+            <element signature="e#3108#3109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/server/UserColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -717,50 +840,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/service/MessageProcessorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="122" column="64" lean-forward="true" selection-start-line="122" selection-start-column="64" selection-end-line="122" selection-end-column="64" />
+        <state relative-caret-position="238">
+          <caret line="183" column="79" selection-start-line="183" selection-start-column="79" selection-end-line="183" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/AbstractCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/server/MessageBroker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2095#2096#0" expanded="true" />
-            <element signature="e#2146#2147#0" expanded="true" />
-            <element signature="e#2214#2215#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ichat/command/Members.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="78" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
           </folding>
         </state>
       </provider>

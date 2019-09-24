@@ -31,3 +31,15 @@ X
 ,src/main/java/com/ichat/command/Command.java,d\7\d75d19b8e1bb8751f736fbda26748698bf0a5a0f
 \
 ,src/main/java/com/ichat/command/Weather.java,4\6\46291ad6cb0f7df3932949f20f6d13ab63baf4ad
+j
+:src/main/java/com/ichat/command/AbstractStringCommand.java,5\6\56d114713c33c2cd338874374db71a8d867d3347
+d
+4src/main/java/com/ichat/command/AbstractCommand.java,4\1\417dd217ac35f9c744750927d83fcce0e81dac0e
+Z
+*src/main/java/com/ichat/command/Query.java,0\e\0e64e06878b891dd4fbd8a875dc329cc6dceafd6
+b
+2src/main/java/com/ichat/service/ByteArrayFile.java,9\b\9b368baffc45c8979d840e89a6b334885beba9dc
+^
+.src/main/java/com/ichat/command/Downloads.java,8\6\861609761b5013e10a4b4a0c7dc4a90f79154e13
+]
+-src/main/java/com/ichat/server/UserColor.java,7\9\79c7da1ea04e1df156c0e7c0c56884160550013a

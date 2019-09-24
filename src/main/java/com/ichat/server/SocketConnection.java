@@ -1,6 +1,7 @@
 package com.ichat.server;
 
 import com.ichat.ServerRunner;
+import com.ichat.common.Constants;
 import com.ichat.service.Message;
 import com.ichat.service.MessageProcessorService;
 import com.ichat.service.Service;
@@ -9,11 +10,13 @@ import org.apache.commons.lang3.RandomStringUtils;
 import java.io.*;
 import java.net.Socket;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ForkJoinPool;
 
 public class SocketConnection {
 
     private Socket socket;
     private String clientId;
+    private String clientColor;
     private String username;
     private ObjectInputStream objectInputStream;
     private ObjectOutputStream objectOutputStream;
@@ -34,12 +37,14 @@ public class SocketConnection {
         objectInputStream = new ObjectInputStream(new BufferedInputStream(socket.getInputStream()));
         clientId = RandomStringUtils.random(7, true, true);
         username = clientId;
+        clientColor = UserColor.getNextAvailableColor();
         messageProcessorService = (MessageProcessorService) ServerRunner.SERVICES.get(Service.Services.MESSAGE_PROCESSOR);
         messageProcessorService.setMessageBroker(messageBroker);
         System.out.println("Connection established. Assigned client id " + clientId + " to connection....");
     }
 
     private void startListeningToMessages() {
+        System.out.println("Pool size: " + ForkJoinPool.commonPool().getPoolSize());
         CompletableFuture.runAsync(() -> {
            System.out.println("\tListening for messages from " + clientId);
            while (true) {
@@ -56,7 +61,7 @@ public class SocketConnection {
                    e.printStackTrace();
                }
            }
-        });
+        }, Constants.THREAD_POOL);
     }
 
     public void sendMessage(Message message) {
@@ -143,6 +148,15 @@ public class SocketConnection {
 
     public SocketConnection setMessageProcessorService(MessageProcessorService messageProcessorService) {
         this.messageProcessorService = messageProcessorService;
+        return this;
+    }
+
+    public String getClientColor() {
+        return clientColor;
+    }
+
+    public SocketConnection setClientColor(String clientColor) {
+        this.clientColor = clientColor;
         return this;
     }
 }
