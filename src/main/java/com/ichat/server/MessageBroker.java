@@ -3,7 +3,6 @@ package com.ichat.server;
 import com.ichat.common.Constants;
 import com.ichat.common.Headers;
 import com.ichat.service.Message;
-import com.sun.xml.internal.bind.v2.runtime.reflect.opt.Const;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.*;

@@ -43,3 +43,5 @@ b
 .src/main/java/com/ichat/command/Downloads.java,8\6\861609761b5013e10a4b4a0c7dc4a90f79154e13
 ]
 -src/main/java/com/ichat/server/UserColor.java,7\9\79c7da1ea04e1df156c0e7c0c56884160550013a
+]
+-src/main/java/com/ichat/common/Constants.java,b\a\ba598f40b2787e94b4b82c346ba3f50500b290fe
